@@ -1,0 +1,75 @@
+.daily-item {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 15px;
+  display: flex;
+  gap: 10;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.daily-item:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.icon-small {
+  width: 40px;
+  color: #50470b;
+}
+
+.day {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.description {
+  font-size: 14px;
+  color: #2a595c;
+}
+
+.min-max {
+  font-weight: 700;
+  color:black;
+}
+/* 
+/* Accordion */
+
+.Accordion{
+  margin-top: 66px;
+  display: inline-table;
+}
+
+.AccordionItemButton {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+  border: none;
+}
+
+.AccordionItemPanel {
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.daily-details-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  padding: 10px;
+}
+
+.daily-details-grid-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.daily-details-grid-item label {
+  font-size: 14px;
+  font-weight: 400;
+  color: #bbb;
+} 
