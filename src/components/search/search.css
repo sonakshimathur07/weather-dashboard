@@ -1,10 +1,6 @@
 /* Main container for the search input */
 .search-container {
   width: 100%;
-  max-width: 600px;
-  margin: 50px auto;
-  padding: 0 20px;
-  text-align: center;
 }
 
 /* Label for search */
@@ -12,7 +8,7 @@
   font-size: 20px;
   font-weight: 600;
   margin-top: -2px;
-  color:white;
+  color: white;
   letter-spacing: 0.5px;
 }
 
@@ -70,17 +66,3 @@
   color: #888;
   text-align: center;
 }
-
-/* Media query for max-width 768px (Tablets and below) */
-@media (max-width: 768px) {
-  .search-container {
-    margin: 23px auto;
-  }
-
-  .search-input {
-    padding: 12px 15px;
-    font-size: 14px;
-  }
-}
-
-

@@ -2,7 +2,7 @@
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
-  background-image: url('https://img.freepik.com/free-photo/digital-art-dark-cosmic-night-sky_23-2151700776.jpg?ga=GA1.1.593529435.1710949275&semt=ais_hybrid');
+  background-image: url("https://img.freepik.com/free-photo/digital-art-dark-cosmic-night-sky_23-2151700776.jpg?ga=GA1.1.593529435.1710949275&semt=ais_hybrid");
   background-repeat: no-repeat;
   background-size: cover;
   color: #333;
@@ -10,6 +10,13 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+}
+
+.weather-dashboard-heading {
+  font-size: 50px;
+  color: white;
+  margin-bottom: 20px;
+  margin-top: 100px;
 }
 
 /* Header styling */
@@ -25,9 +32,48 @@ h1 {
   border-radius: 10px;
 }
 
+.hide-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.current-weather-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f4ff;
+  padding-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  width: 100%;
+}
+
+.forecast-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f4ff;
+  padding-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  width: 100%;
+}
+
 .container-currentWeather,
 .container-forecast {
   margin-top: 20px;
 }
 
-
+@media (max-width: 768px) {
+  .weather-dashboard-heading {
+    font-size: 40px;
+    margin-top: 100px;
+  }
+  .current-weather-container {
+    margin: 20px 20px;
+  }
+}
