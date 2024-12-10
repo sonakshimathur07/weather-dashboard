@@ -10,9 +10,9 @@
     /* transition: all 0.3s ease; */
   }
   
-  .weather:hover {
+  /* .weather:hover {
     /* transform: scale(1.05); */
-  }
+   
   
   .weather-top {
     text-align: center;
@@ -59,4 +59,8 @@
     font-size: 14px;
     font-weight: 600;
     color: cornflowerblue;
+  }
+
+  @media screen and (min-width: 480px) and (max-width: 580px) {
+    
   }
